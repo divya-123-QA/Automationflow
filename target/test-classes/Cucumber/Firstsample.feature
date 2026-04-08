@@ -3,7 +3,7 @@ Feature:Order the product in E-commerce application
 Background:
 Given Go to URL 
 
-@Tag
+@Additem
 Scenario Outline:Select the product and confirm the order
 Given user enters <username> and <password>
 When user select the product <name> and add to cart

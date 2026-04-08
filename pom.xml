@@ -75,7 +75,7 @@
   <profiles>
   
    <profile>
-  <id>cucumbertesting</id>
+  <id>cucumber</id>
   <build>
   
     <plugins>
