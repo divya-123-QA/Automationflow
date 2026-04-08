@@ -76,7 +76,7 @@ public void Order() {
 	ord.Ordertitle();
 	Boolean match=ord.Orderproduct();
 	System.out.println(match);
-	System.out.println("Github Webhooks");
+	System.out.println("Github Webhooks trigger");
 }
 @DataProvider
 public Object[][] setData() throws IOException {
