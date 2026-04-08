@@ -1,0 +1,8 @@
+reusable\Reusablecode.class
+reusable\Reports.class
+pageobjects\Orderspage.class
+pageobjects\Productcatalogue.class
+pageobjects\Landing.class
+pageobjects\Confirmationpage.class
+pageobjects\Cartpage.class
+pageobjects\Paymentpage.class

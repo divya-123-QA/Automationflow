@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="reusabletest.Listen"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="PositiveTest(failed)" verbose="0">
+    <classes>
+      <class name="Rahulshettyacademypack.Submitorder">
+        <methods>
+          <include name="Order"/>
+          <include name="lastLand"/>
+          <include name="automationTesting"/>
+          <include name="initialLand"/>
+        </methods>
+      </class> <!-- Rahulshettyacademypack.Submitorder -->
+    </classes>
+  </test> <!-- PositiveTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
